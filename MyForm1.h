@@ -59,7 +59,7 @@ namespace One {
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(50, 289);
+			this->button1->Location = System::Drawing::Point(102, 314);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(135, 42);
 			this->button1->TabIndex = 0;
@@ -70,9 +70,9 @@ namespace One {
 			// pictureBox1
 			// 
 			this->pictureBox1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.BackgroundImage")));
-			this->pictureBox1->Location = System::Drawing::Point(7, 12);
+			this->pictureBox1->Location = System::Drawing::Point(7, 3);
 			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(218, 250);
+			this->pictureBox1->Size = System::Drawing::Size(322, 293);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
@@ -82,7 +82,7 @@ namespace One {
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::SystemColors::ActiveCaption;
-			this->ClientSize = System::Drawing::Size(237, 356);
+			this->ClientSize = System::Drawing::Size(336, 377);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedToolWindow;
